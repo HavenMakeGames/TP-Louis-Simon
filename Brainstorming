@@ -1,0 +1,69 @@
+Brainstorming
+
+Catalogue:
+contenir jeu avec :
+	Titre
+	Studio
+	Date
+	Genre
+	Plateforme
+	Notes 
+
+Class Jeu : (djqdpoqkfpoqkzf)
+
+Contenu du Catalogue = Liste de jeux 
+
+Comptes:
+pseudo utilisés =  Liste
+Mail associé à un mot de passe 
+se Dé/connecter ??
+? Supprimer Compte
+?Enregistrer Date de création 
+
+Notes : 
+Doit etre :
+	Connecter => Sinon renvoyer a se connecter
+	Unique
+	Entre 1 et 5
+	Modifiable
+
+Commentaires :
+	On enregistre la date
+	Message
+
+Fiche d'une oeuvre:
+	informations => Titre , année , genre , studio , plateforme , Description
+	Moyenne Notes
+	Commentaires du plus recent au plus vieux
+
+Recherche et tri :
+	Chercher des jeux par :
+		genre , année , titre , moyenne
+
+Sauvegarde :
+	Commentaire 
+	Comptes
+	Notes
+	Jeux 
+
+Organisation :
+Si connecter :
+	Catalogue => Commenter , Noter , Ajouter 
+Si pas connecter :
+	Voir sans rien modifier 
+
+Verifier_Mail(mail):
+	return true si unique 
+
+Puis Verifier_Nom(nom):
+	return True
+
+Compte = Class Comptes(nom Utilisateur , adresse mail , mdp) #AUCUN DOUBLON
+Jeu =  Class Jeu(Titre,Année,studio,platforme, notes = [] , moy = 0 , nb avis = len(notes) ,com = ""):
+	notes = [0]
+
+Catalogue = [Instance de Jeux]
+Notes = attribut de la class Jeu , liste []
+Comm = Class Commentaires(Message , Dates , Utilisateur)
+
+
