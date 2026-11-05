@@ -1,4 +1,8 @@
 Brainstorming
+INTERDIT:
+!= SELECT * from user
+.sort()
+
 
 Catalogue:
 contenir jeu avec :
